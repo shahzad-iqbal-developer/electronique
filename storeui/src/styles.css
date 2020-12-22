@@ -1,0 +1,64 @@
+/* You can add global styles to this file, and also import other style files */
+
+.header{
+    margin-top: 10px;
+}
+
+.createbtn{
+    
+    border-radius: 0px;
+    margin: 5px 5px;
+    padding: 5px 15px;
+    float: right;
+    
+}
+
+.p-h3{
+    background: #337ab7;
+    color: white;
+    padding: 10px;
+}
+
+.card{
+    border: 1px solid #337ab7;
+    padding: 25px;width: 49%;
+    float: left;list-style: none;
+    box-shadow: 2px 2px 3px #337ab7;
+    margin: 5px 5px;
+}
+
+.card li{
+    padding: 5px;
+}
+
+.card li span{
+    font-weight: 600;
+}
+
+.updatebtn{
+    margin-top: 15px; 
+    border-radius: 0px;
+}
+
+.deletebtn{
+    float: right;
+    background: none;
+    border:none;
+}
+
+.deletebtn img{
+    width: 30px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .card {
+      width: 100% !important;
+      margin: 5px 0px;
+    }
+    .p-h3{
+        margin-top: 70px;
+    }
+    
+  }
